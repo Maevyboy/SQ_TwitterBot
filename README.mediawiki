@@ -3,11 +3,11 @@ SQTwitter Bot v0.1
 
 === Funktionsweise ===
 Die Java App ist in der Lage einer bestimmten Person in Twitter zu folgen. Sollte die Person, der wir folgen einen ''Tweet'' verfassen, so wird
-eine eloquente Antwort zurückgegeben. 
+eine eloquente Antwort zurueckgegeben. 
 
 ----
 
 === Start ===
-Um die App zu starten, müssen die Startparameter in der Kommandokonsole, im jeweiligen Pfad, wie folgt lauten.
+Um die App zu starten, muessen die Startparameter in der Kommandokonsole, im jeweiligen Pfad, wie folgt lauten.
 
 '''java -jar SQ_Twitterbot.jar'''
