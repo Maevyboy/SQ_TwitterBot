@@ -10,6 +10,8 @@ public class OAutoLogin {
 
 	public OAutoLogin(String consumerKey, String consumerSecret, String token, String secretToken){
 		
+		// Aufbereitung der Login Daten zum CB und zum akzeptieren durch OAuth
+		
 		ConfigurationBuilder myCb = new ConfigurationBuilder();
 		myCb.setDebugEnabled(true).setOAuthConsumerKey(consumerKey).setOAuthConsumerSecret(consumerSecret).setOAuthAccessToken(token).setOAuthAccessTokenSecret(secretToken);
 		

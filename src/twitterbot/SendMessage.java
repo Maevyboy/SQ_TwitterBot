@@ -1,7 +1,6 @@
 package twitterbot;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 
@@ -9,15 +8,15 @@ import twitter4j.TwitterException;
 public class SendMessage {
 	
 	private Twitter twitterMessage;
-	boolean mytest = true;
-	
+		
 	public SendMessage(Twitter twitter, String fname){
 		this.twitterMessage = twitter;
 		String name = readLine();
 		createFriendship(name);		
 	}
-		
-
+	
+	//Das mögliche followen eines Users
+	
 	public void createFriendship(String fname){
 		try{
 			
@@ -25,9 +24,12 @@ public class SendMessage {
 			System.out.println("Freund wurde hinzugefügt: "+fname);
 		}catch(TwitterException te){
 			System.out.println("Freund konnte nicht hinzugefügt werden :(");
-			
+			System.exit(0);
 		}
 	}
+	
+	// Eingabe des Users um zu followen
+	
 	public String readLine(){
 		String s = "";
 		try{
