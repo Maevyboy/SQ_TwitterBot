@@ -11,3 +11,5 @@ eine eloquente Antwort zurueckgegeben.
 Um diese App zu starten, muessen die Startparameter in der Kommandokonsole, im jeweiligen Pfad wie folgt lauten:
 
 '''java -jar SQ_Twitterbot.jar'''
+
+Anschlieﬂend muss eine Person angegeben werden, der gefolgt werden soll. Den Rest macht das Programm selber.
