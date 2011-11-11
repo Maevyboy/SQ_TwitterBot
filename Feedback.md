@@ -1,9 +1,9 @@
 # Feedback
 ##Dokumentation
-Die Dokumentation ist formatiert und damit angenehm zu lesen. Da das Bedienkonzept sehr einfach gehalten wurde reicht eine sehr kurze Dokumentation in diesem Fall aus.
+Die Dokumentation ist formatiert und damit angenehm zu lesen. Da das Bedienkonzept sehr einfach gehalten wurde reicht eine sehr kurze Dokumentation in diesem Fall aus. Wünschenswert wäre gewesen etwas mehr Informationen zur Umsetzung und zur Architektur der Applikation zu haben. 
 
 ##Git- und Github-Nutzung
-Die Commits sind minimal und zeigen keinerlei Workflow. Die Commit-Messages sind hne jeglichen Wert.
+Die Commits sind minimal und zeigen keinerlei Workflow. Die Commit-Messages sind ohne jeglichen Wert.
 Auf keinen Fall dürfen API-Keys und Secrets in ein Projekt eingecheckt werden, vor allem nicht dann, wenn dieses public erreichbar ist.
 
 ##Funktionalität
