@@ -15,12 +15,12 @@ import de.fhb.twitterCalendar.server.valueObject.ReminderObject;
 
 /**
  * 
- * @author Tony Hoffmann & Maciej Gorski
+ * @author Tony Hoffmann and Maciej Gorski
  * 
  */
 public class Model {
 
-	public final static String[] MONTH = { "Januar", "Februar", "März",
+	public final static String[] MONTH = { "Januar", "Februar", "Mï¿½rz",
 			"April", "Mai", "Juni", "Juli", "August", "September", "Oktober",
 			"November", "Dezember" };
 

@@ -26,7 +26,7 @@ import de.fhb.twitterCalendar.client.TwitterClient;
 import de.fhb.twitterCalendar.server.valueObject.ReminderObject;
 
 /**
- * @author Tony
+ * @author Tony and Maciej Gorski
  * 
  */
 public class ModelTest {

@@ -18,7 +18,7 @@ import de.fhb.twitterCalendar.view.RemindDialog;
 import de.fhb.twitterCalendar.view.View;
 
 /**
- * @author Tony Hoffmann & Maciej Gorski
+ * @author Tony Hoffmann and Maciej Gorski
  * 
  */
 public class Controller {
@@ -205,7 +205,7 @@ public class Controller {
 				JOptionPane
 						.showMessageDialog(
 								reminderChoiceDialog,
-								"Keine Erinnerung gewählt!\nWählen Sie eine Erinnerung aus der Liste und klicken Sie erneut auf \"Editieren!\"",
+								"Keine Erinnerung gewï¿½hlt!\nWï¿½hlen Sie eine Erinnerung aus der Liste und klicken Sie erneut auf \"Editieren!\"",
 								"Keine Auswahl!", JOptionPane.WARNING_MESSAGE);
 			}
 
@@ -238,7 +238,7 @@ public class Controller {
 					JOptionPane
 							.showMessageDialog(
 									remindDialog,
-									"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Ok\" ",
+									"Es konnte keine Verbindung hergestellst werden.\nï¿½berprï¿½fen sie ihre Internet verbindung und klicken Sie erneut auf \"Ok\" ",
 									"Keine Verbindung",
 									JOptionPane.ERROR_MESSAGE);
 				}
@@ -258,7 +258,7 @@ public class Controller {
 					JOptionPane
 							.showMessageDialog(
 									remindDialog,
-									"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Ok\" ",
+									"Es konnte keine Verbindung hergestellst werden.\nï¿½berprï¿½fen sie ihre Internet verbindung und klicken Sie erneut auf \"Ok\" ",
 									"Keine Verbindung",
 									JOptionPane.ERROR_MESSAGE);
 				}
@@ -303,7 +303,7 @@ public class Controller {
 				JOptionPane
 						.showMessageDialog(
 								remindDialog,
-								"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Löschen\" ",
+								"Es konnte keine Verbindung hergestellst werden.\nï¿½berprï¿½fen sie ihre Internet verbindung und klicken Sie erneut auf \"Lï¿½schen\" ",
 								"Keine Verbindung", JOptionPane.ERROR_MESSAGE);
 			}
 		}
@@ -353,7 +353,7 @@ public class Controller {
 					+ Integer.toString(i)
 					+ "<span/><br/><span text-align:\"center\">"
 					+ (connectionSucces ? remindsCount[i - 1] : 0)
-					+ " Einträge<span/><html/>");
+					+ " Eintrï¿½ge<span/><html/>");
 			b.setActionCommand(Integer.toString(i));
 		}
 

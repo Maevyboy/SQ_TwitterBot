@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 import de.fhb.twitterCalendar.model.Model;
 
 /**
- * @author Tony Hoffmann & Maciej Gorski
+ * @author Tony Hoffmann and Maciej Gorski
  * 
  */
 public class View extends JFrame {
@@ -159,7 +159,7 @@ public class View extends JFrame {
 		JOptionPane
 				.showMessageDialog(
 						this,
-						"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Neu Laden\" ",
+						"Es konnte keine Verbindung hergestellst werden.\nï¿½berprï¿½fen sie ihre Internet verbindung und klicken Sie erneut auf \"Neu Laden\" ",
 						"Keine Verbindung", JOptionPane.ERROR_MESSAGE);
 
 	}

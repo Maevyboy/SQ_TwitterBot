@@ -35,7 +35,7 @@ import de.fhb.twitterCalendar.view.RemindDialog;
 import de.fhb.twitterCalendar.view.View;
 
 /**
- * @author Tony
+ * @author Tony and Maciej Gorski
  * 
  */
 public class ControllerTest {
@@ -89,25 +89,25 @@ public class ControllerTest {
 		assertTrue(con.connectionSucces);
 	}
 
-	// /**
-	// * Test method for
-	// * {@link de.fhb.twitterCalendar.controller.Controller#reload()}.
-	// */
-	// @Test
-	// public void testFalseReload() {
-	//
-	// context.checking(new Expectations() {
-	// {
-	// oneOf(con.model).reloadReminds();
-	// will(returnValue(false));
-	// oneOf(con.view).showDialog();
-	//
-	// }
-	// });
-	//
-	// con.reload();
-	// assertFalse(con.connectionSucces);
-	// }
+	/**
+	 * Test method for
+	 * {@link de.fhb.twitterCalendar.controller.Controller#reload()}.
+	 */
+	@Test
+	public void testFalseReload() {
+
+		context.checking(new Expectations() {
+			{
+				oneOf(con.model).reloadReminds();
+				will(returnValue(false));
+				oneOf(con.view).showDialog();
+
+			}
+		});
+
+		con.reload();
+		assertFalse(con.connectionSucces);
+	}
 
 	/**
 	 * Test method for

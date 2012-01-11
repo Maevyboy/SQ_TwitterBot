@@ -13,7 +13,7 @@ import java.awt.Rectangle;
 import javax.swing.JPanel;
 
 /**
- * @author Tony Hoffmann & Maciej Gorski
+ * @author Tony Hoffmann and Maciej Gorski
  * 
  */
 public class GradientJPanel extends JPanel {

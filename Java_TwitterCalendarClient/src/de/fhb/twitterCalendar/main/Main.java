@@ -8,7 +8,7 @@ import de.fhb.twitterCalendar.model.Model;
 import de.fhb.twitterCalendar.view.View;
 
 /**
- * @author Tony Hoffmann & Maciej Gorski
+ * @author Tony Hoffmann and Maciej Gorski
  * 
  */
 public class Main {
