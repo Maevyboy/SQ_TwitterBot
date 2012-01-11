@@ -21,7 +21,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 /**
- * @author Tony
+ * @author Tony Hoffmann & Maciej Gorski
  * 
  */
 public class RemindDialog extends JDialog {

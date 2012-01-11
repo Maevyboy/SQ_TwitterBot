@@ -23,7 +23,7 @@ import javax.swing.ListSelectionModel;
 import de.fhb.twitterCalendar.server.valueObject.ReminderObject;
 
 /**
- * @author Tony
+ * @author Tony Hoffmann & Maciej Gorski
  * 
  */
 public class RemindChoiceDialog extends JDialog {

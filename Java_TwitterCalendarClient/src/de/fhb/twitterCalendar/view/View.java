@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 import de.fhb.twitterCalendar.model.Model;
 
 /**
- * @author Tony
+ * @author Tony Hoffmann & Maciej Gorski
  * 
  */
 public class View extends JFrame {

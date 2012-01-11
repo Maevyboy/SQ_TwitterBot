@@ -18,7 +18,7 @@ import de.fhb.twitterCalendar.view.RemindDialog;
 import de.fhb.twitterCalendar.view.View;
 
 /**
- * @author Tony
+ * @author Tony Hoffmann & Maciej Gorski
  * 
  */
 public class Controller {
