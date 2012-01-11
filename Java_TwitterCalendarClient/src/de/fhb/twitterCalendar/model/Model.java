@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Vector;
 
 import de.fhb.twitterCalendar.client.TwitterClient;
@@ -103,8 +104,7 @@ public class Model {
 	 * @return
 	 */
 	public Calendar getDate() {
-		Calendar c = Calendar.getInstance();
-		c.set(year, month, day);
+		Calendar c = new GregorianCalendar(year, month, day);
 		return c;
 	}
 

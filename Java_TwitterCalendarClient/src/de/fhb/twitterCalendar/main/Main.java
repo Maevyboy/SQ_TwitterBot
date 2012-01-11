@@ -9,14 +9,14 @@ import de.fhb.twitterCalendar.view.View;
 
 /**
  * @author Tony
- *
+ * 
  */
 public class Main {
 
 	static View view;
 	static Model model;
 	static Controller controller;
-	
+
 	/**
 	 * @param args
 	 */
@@ -24,9 +24,9 @@ public class Main {
 
 		view = new View("Twitter Kalender");
 		model = new Model();
-		
-		controller = new Controller(model, view);
 
+		controller = new Controller(model, view);
+		controller.init();
 	}
 
 }

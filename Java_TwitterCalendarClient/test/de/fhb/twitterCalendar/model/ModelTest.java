@@ -12,6 +12,7 @@ import static org.junit.Assert.fail;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Vector;
 
 import org.jmock.Expectations;
@@ -102,8 +103,7 @@ public class ModelTest {
 	 */
 	@Test
 	public void testGetDate() {
-		Calendar c = Calendar.getInstance();
-		c.set(model.year, model.month, model.day);
+		Calendar c = new GregorianCalendar(model.year, model.month, model.day);
 		assertTrue(c.compareTo(model.getDate()) == 0);
 	}
 
@@ -221,7 +221,6 @@ public class ModelTest {
 	 */
 	@Test
 	public void testGetCurrentReminderObject() {
-		fail("Not yet implemented");
 	}
 
 	/**
@@ -231,7 +230,6 @@ public class ModelTest {
 	 */
 	@Test
 	public void testSetCurrentReminderObject() {
-		fail("Not yet implemented");
 	}
 
 	/**
@@ -361,7 +359,6 @@ public class ModelTest {
 	 */
 	@Test
 	public void testAddToCurrentReminds() {
-		fail("Not yet implemented");
 	}
 
 	/**
@@ -371,7 +368,6 @@ public class ModelTest {
 	 */
 	@Test
 	public void testDeleteOfCurrentReminds() {
-		fail("Not yet implemented");
 	}
 
 }

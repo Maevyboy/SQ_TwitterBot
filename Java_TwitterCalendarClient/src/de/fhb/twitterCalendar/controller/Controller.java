@@ -41,14 +41,14 @@ public class Controller {
 		this.model = m;
 		this.view = v;
 
-		init();
+		// init();
 
 	}
 
 	/**
 	 * 
 	 */
-	protected void init() {
+	public void init() {
 		reminderChoiceDialog = new RemindChoiceDialog(view, "Errinnerung", true);
 		remindDialog = new RemindDialog(reminderChoiceDialog, "Errinnerung",
 				true);
@@ -63,6 +63,7 @@ public class Controller {
 
 		addListener();
 		recompute();
+		view.setVisible(true);
 	}
 
 	/**
@@ -72,11 +73,9 @@ public class Controller {
 		if (model.reloadReminds()) {
 			connectionSucces = true;
 		} else {
-			JOptionPane
-					.showMessageDialog(
-							view,
-							"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Neu Laden\" ",
-							"Keine Verbindung", JOptionPane.ERROR_MESSAGE);
+			connectionSucces = false;
+			view.showDialog();
+
 		}
 	}
 

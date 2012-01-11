@@ -3,6 +3,7 @@
  */
 package de.fhb.twitterCalendar.view;
 
+import java.awt.Component;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
@@ -14,6 +15,7 @@ import java.util.Calendar;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import de.fhb.twitterCalendar.model.Model;
@@ -99,8 +101,6 @@ public class View extends JFrame {
 				daysPanel.add(dayButtons[i][j] = new JButton(""));
 				// dayButtons[i][j].addActionListener(dateSetter);
 			}
-
-		this.setVisible(true);
 	}
 
 	/**
@@ -152,6 +152,16 @@ public class View extends JFrame {
 	 */
 	public JButton[][] getDayButtons() {
 		return dayButtons;
+	}
+
+	public void showDialog() {
+
+		JOptionPane
+				.showMessageDialog(
+						this,
+						"Es konnte keine Verbindung hergestellst werden.\nÜberprüfen sie ihre Internet verbindung und klicken Sie erneut auf \"Neu Laden\" ",
+						"Keine Verbindung", JOptionPane.ERROR_MESSAGE);
+
 	}
 
 }
